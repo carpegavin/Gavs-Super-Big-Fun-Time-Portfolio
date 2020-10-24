@@ -1,4 +1,4 @@
-# Porfolio -- Gavin H Phill
+# Super Big Fun Time Portfolio -- Gavin H Phill     https://carpegavin.github.io/
 
 ## The goal of this project was to create a responisive personal portfolio to showcase completed projects/applications to prospective employers.
 
