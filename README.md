@@ -22,3 +22,5 @@
     
 ## To note:
   * My goal was to create a site that was clean, simple. More importantly though, different than the standard. `I purposely avoided the more conventional layout scheme and instead focused on clear and consise and ENGAGING. I wanted the user to feel like they left their zone, I guess. Like they were in my house, my room, my personality. I wanted the site to say as much about me as a coder than the projects or bio. Sometimes the wrapping paper can be as exciting as the present inside.  
+
+
