@@ -2,7 +2,7 @@
 
 ## https://carpegavin.github.io/Gavs-Super-Big-Fun-Time-Portfolio/.
 
-## The goal of this project was to create a responisive personal portfolio to showcase completed projects/applications to prospective employers.
+## The goal of this project was to create a responsive personal portfolio to showcase completed projects/applications to prospective employers.
 
 ## The requirments to develop my portfolio were as follows:
   * The front page must have the following visible
