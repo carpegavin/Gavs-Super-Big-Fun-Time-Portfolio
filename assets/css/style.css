@@ -8,18 +8,20 @@ html {
     animation: 5s infinite;
 }
 
+/* ----------------------body----------------------------------- */
 body {
-    display: flex;
-    flex-wrap: nowrap;
-    min-height: 100;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* min-height: 100; */
     line-height: 1;
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: wrap;
 }
-   
+ 
+/* ------------------------profile img-------------------------- */
 .img {
-    display: flex;
-    flex-wrap: wrap; 
+    /* display: flex;
+    flex-wrap: wrap;  */
     justify-content: flex-end;
     margin-top: 5%;
     margin-left: 70%;
@@ -32,25 +34,24 @@ body {
     position: relative;
     left: 0;
     transition: left ease 0.5s;
-
-    
-    /* float: right; */
 }
 
 .img:hover {
     filter: opacity(100%) blur(0px);
-    left:-50px;
+    left:-3rem;
 }
 
 .imgContainer {
     width: 50%;
     margin-top: 3%;
 }
+
+
 .linksContainer {
     width: 50%;
-    
-    
-}
+}  
+
+/* --------------------intro--------------------------------------    */
 .intro {
     display: flex;
     flex-wrap: wrap;
@@ -60,58 +61,51 @@ body {
     margin-top:1%;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 90px;
+    font-size: 6rem;
     font-weight:500;
     text-decoration: none;
 }
 
 .hello {
-    height: 50px;
-    width: 650px;
+    height: 3rem;
+    width: 40rem;
     color: rgb(71, 71, 212);
     text-align: center;
-    padding:15px;
+    padding:1rem;
     text-decoration: none;
     position: relative;
     top: 0;
     transition: top ease 0.5s;
-    
-    
-
 }
 
 .hello:hover {
     color: red;
     background:rgb(228, 165, 186);
-    border-radius: 50px;
-    top: -25px;
-
+    border-radius: 3rem;
+    top: -1.5rem;
 }
 
 .Im {
     color: rgb(235, 98, 48);
     text-align: center;
-    padding: 15px;
+    padding: 1rem;
     text-decoration:none;
     position: relative;
     right: 0;
     transition: right ease 0.5s;
-    
 }
 
 .Im:hover {
     color: rgb(45, 45, 185);
     background: rgb(61, 196, 61);
-    border-radius: 50px;
-    right: -25px;
-    
-    
+    border-radius: 3rem;
+    right: -1.5rem;
 }
 
 .Gavin {
     color: purple;
     text-align: center;
-    padding: 15px;
+    padding: 1rem;
     text-decoration: none;
     position: relative;
     bottom: 0;
@@ -121,9 +115,8 @@ body {
 .Gavin:hover {
     color: rgb(211, 35, 35);
     background:rgb(226, 226, 94);
-    border-radius: 50px;
-    bottom: -25px;
-    
+    border-radius: 3rem;
+    bottom: -1.5rem;
 }
 
 .goto {
@@ -131,66 +124,55 @@ body {
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blueviolet;
-    font-size: 50px;
+    font-size: 3rem;
     height: 10%;
-    width: 1000px;
-    
-    
-    
+    width: 62rem;
 }
 
+/* -----------------------bio--------------------------------- */
 .me {
-    display:flex;
-    flex-wrap:wrap;
-    /* background: yellow; */
     color: whitesmoke;
-    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-direction: center;
+    /* flex-direction: center; */
     box-sizing: border-box;
-    width: 700px;
-    padding: 20px;
+    width: 44rem;
+    padding: 1.25rem;
     border: 1px solid white;
     margin-top: 10%;
     margin-left: 17%;
-    border-radius: 25px;
-    /* background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2));
-    filter: contrast(160%) opacity(85%) blur(5px); */
+    border-radius: 1.5rem;
     letter-spacing:2px;
     line-height: 1.3;
     position: relative;
     right: 0;
     transition: right ease 0.5s;
-    
-    
-
-
 }
 
 .me:hover {
     filter: opacity(100%) blur(0px);
     background: rgb(238, 203, 137);
-    right: -40px;
+    right: -2.5rem;
     color: black;
 }
 
-
+/* --------------------projects--------------------------- */
 .project {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 65%;
-    
+    margin-top: 25%;
 }
-
 
 .golf {
     display: flex;
     color: rgb(238, 82, 82);
     text-align: center;
-    padding:20px;
-    font-size: 25px;
+    padding: 1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -205,8 +187,8 @@ body {
     text-decoration: none;
     color: rgb(35, 165, 35);
     text-align: center;
-    padding:20px;
-    font-size: 25px;
+    padding:1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -220,8 +202,8 @@ body {
     text-align: left;
     color:rgb(233, 178, 76);
     text-align: center;
-    padding:20px;
-    font-size: 25px;
+    padding:1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -235,67 +217,16 @@ body {
     display:flex;
     color:rgb(211, 183, 231);
     text-align: center;
-    padding:20px;
-    font-size: 25px;
+    padding:1.25rem;
+    font-size: 1.5rem;
     text-decoration: none;
-    
 }
 
 .lite:hover {
     color: lightgreen;
 }
 
-
-
-
-
-.carpe {
-    display:flex;
-    flex-wrap:wrap;
-    color: whitesmoke;
-    color: whitesmoke;
-    font-size: 25px;
-    flex-direction: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-direction: center;
-    box-sizing: border-box;
-    width: 350px;
-    padding: 15px;
-    border: 1px solid white;
-    margin-top: 20px;
-    margin-left: 28%;
-    margin-bottom: 20px;
-    border-radius: 25px;
-    /* background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2));
-    filter: contrast(160%) opacity(85%) blur(5px); */
-    letter-spacing:2px;
-    line-height: 1.3;
-    position: relative;
-    right: 0;
-    transition: right ease 0.5s;
-    
-
-}
-
-.carpe:hover {
-    background: rgb(238, 203, 137);
-    right: -40px;
-    color: black;
-}
-
-footer {
-    display:flex;
-    flex-wrap:wrap;
-    color: rgb(238, 238, 99);
-}
-
-.email, button {
-    display:flex;
-    flex-wrap:wrap;
-    width: 25%;
-}
-/* imagae tags here */
-
+/* --------------project images----------------------------- */
 .disc{
     display: flex;
     flex-wrap: wrap; 
@@ -306,8 +237,6 @@ footer {
     position: relative;
     left: 0;
     transition: left ease 0.5s
-    
-    
 }
 
 .disc:hover {
@@ -330,7 +259,6 @@ footer {
     position: relative;
     right: 0;
     transition: right ease 0.5s
-
 }
     
 .bicycle:hover{
@@ -354,7 +282,6 @@ footer {
     position: relative;
     left: 0;
     transition: left ease 0.5s
-
 }
 
 .paddle:hover {
@@ -363,13 +290,10 @@ footer {
     left: 10px;
     transform:scale(1.2);
     transition: ease 0.5s;
-    
-    
 }
 
 
 .miller {
-    
     width: 40%;
     border-radius: 25px;
     background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2));
@@ -378,8 +302,6 @@ footer {
     position: relative;
     right: 0;
     transition: right ease 0.5s;
-    
-    
 }
 
 .miller:hover {
@@ -388,11 +310,53 @@ footer {
     right: 10px;
     transform:scale(1.2);
     transition: ease 0.5s;
-    
 }
 
 .LI-profile-badge {
     margin-right: 20px;
+}
+
+/* ----------------------footer--------------------- */
+.carpe:hover {
+    background: rgb(238, 203, 137);
+    right: -40px;
+    color: black;
+}
+
+footer {
+    display:flex;
+    flex-wrap:wrap;
+    color: rgb(238, 238, 99);
+}
+
+.email, button {
+    display:flex;
+    flex-wrap:wrap;
+    width: 25%;
+}
+
+.carpe {
+    display:flex;
+    flex-wrap:wrap;
+    color: whitesmoke;
+    color: whitesmoke;
+    font-size: 25px;
+    flex-direction: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: center;
+    box-sizing: border-box;
+    width: 350px;
+    padding: 15px;
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-left: 28%;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    letter-spacing:2px;
+    line-height: 1.3;
+    position: relative;
+    right: 0;
+    transition: right ease 0.5s;
 }
 
 .badges {
@@ -401,15 +365,56 @@ footer {
     flex-direction: row;
     margin-left: 28%;
     margin-bottom: 20%
-    
 }
 
 .end {
-    margin-top: 35%;
+    margin-top: 10%;
 }
 
+/* -------------keep this---------------------------------------- */
+@media (max-width: 700px) {
+    .project {   
+      flex-direction: column;
+    }
+  }
+/* --------------------------------------------------------------- */
 
-@media only screen and (min-width: 700px) {
+@media screen and (min-width: 200px) {
+    .me {
+      width: 15rem;
+    }
+  }
+
+@media screen and (min-width: 350px) {
+    .me {
+      width: 20rem;
+    }
+  }
+
+ 
+@media screen and (min-width: 600px) {
+    .me {
+        width: 30rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .me {
+        width: 45rem;
+    }
+}
+
+/* @media only screen and (max-width: 768px) {
+    /* For mobile phones: 
+    [class*="col-"] {
+      width: 100%;
+    }
+  } */
+
+
+
+
+/* @media only screen and (min-width: 600px) {
     .intro {
         flex-wrap: wrap;
     } 
@@ -431,4 +436,4 @@ footer {
     .end {
         flex-wrap: wrap;
     }
-}
+} */ 
