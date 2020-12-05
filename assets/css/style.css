@@ -1,12 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
 html {
+	height: 100%;
+	/* max-height: 600px; */
+	width: 1000px;
+	background-color:rgb(66, 66, 238);
+	background-image:		
+		url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+		url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png');
+		/* url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png'); */
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 100%,
+		0 50%,
+		0 100%,
+		0 0;
+	background-size: 
+		2500px,
+		800px,
+		500px 200px,
+		1000px,
+		400px 260px;
+	animation: 200s para infinite linear;
+	}
+
+@keyframes para {
+	100% {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
+	}
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* html {
     background-color:black;
     animation: 5s infinite;
-}
+} */
 
 /* ----------------------body----------------------------------- */
 body {
@@ -24,7 +63,7 @@ body {
     flex-wrap: wrap;  */
     justify-content: flex-end;
     margin-top: 5%;
-    margin-left: 70%;
+    margin-left: 25rem;
     max-width: 100%;
     max-height: 100%;
     /* height:  */
@@ -33,12 +72,14 @@ body {
     border-radius: 50px;
     position: relative;
     left: 0;
-    transition: left ease 0.5s;
+    transition: left ease 0.8s;
 }
 
 .img:hover {
     filter: opacity(100%) blur(0px);
     left:-3rem;
+    transform: scale(1.2);
+    
 }
 
 .imgContainer {
@@ -58,7 +99,7 @@ body {
     flex-direction:row;
     margin-left: 20%;
     margin-right: 30%;
-    margin-top:1%;
+    margin-top:8%;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 6rem;
@@ -69,37 +110,40 @@ body {
 .hello {
     height: 3rem;
     width: 40rem;
-    color: rgb(71, 71, 212);
+    color: rgb(116, 223, 74);
     text-align: center;
     padding:1rem;
     text-decoration: none;
     position: relative;
     top: 0;
     transition: top ease 0.5s;
+    font-weight: 750;
 }
 
 .hello:hover {
     color: red;
-    background:rgb(228, 165, 186);
+    background:rgb(18, 6, 71);
     border-radius: 3rem;
     top: -1.5rem;
 }
 
 .Im {
-    color: rgb(235, 98, 48);
+    color: rgb(243, 82, 33);
     text-align: center;
     padding: 1rem;
     text-decoration:none;
     position: relative;
     right: 0;
     transition: right ease 0.5s;
+    font-weight: 750;
 }
 
 .Im:hover {
     color: rgb(45, 45, 185);
-    background: rgb(61, 196, 61);
+    background: rgb(147, 243, 147);
     border-radius: 3rem;
     right: -1.5rem;
+    
 }
 
 .Gavin {
@@ -110,6 +154,7 @@ body {
     position: relative;
     bottom: 0;
     transition: bottom ease 0.5s;
+    font-weight: 750;
 }
 
 .Gavin:hover {
@@ -142,7 +187,7 @@ body {
     padding: 1.25rem;
     border: 1px solid white;
     margin-top: 10%;
-    margin-left: 17%;
+    margin-left: 28%;
     border-radius: 1.5rem;
     letter-spacing:2px;
     line-height: 1.3;
@@ -153,77 +198,103 @@ body {
 
 .me:hover {
     filter: opacity(100%) blur(0px);
-    background: rgb(238, 203, 137);
+    background: rgb(0, 0, 0);
     right: -2.5rem;
-    color: black;
+    color: rgb(248, 246, 246);
 }
 
-/* --------------------projects--------------------------- */
+/* --------------------project titles-------------------------- */
 .project {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 15%;
+    
+    
 }
 
 .golf {
     display: flex;
-    color: rgb(238, 82, 82);
+    color: rgb(82, 12, 24);
     text-align: center;
     padding: 1.25rem;
     font-size: 1.5rem;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align:center;
+    
 }
 
 .golf:hover {
-    color: rgb(212, 190, 64);
+    color: rgb(231, 230, 216);
+    background-color: rgb(156, 8, 8);
+    width: 16rem;
+    border-radius: 1rem;
+    padding-bottom: 22px;
+    
 }
 
 .bonanza {
     display:flex;
     flex-direction: center;
     text-decoration: none;
-    color: rgb(35, 165, 35);
+    color:  rgb(82, 12, 24);
     text-align: center;
     padding:1.25rem;
     font-size: 1.5rem;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
 
 .bonanza:hover {
-    color: rgb(224, 135, 209);
+    color: rgb(231, 230, 216);
+    background-color:rgb(156, 8, 8);
+    width: 15rem;
+    border-radius: 1rem;
+    padding-top:1rem;
 }
 
 .blues {
     display: flex;
     text-align: left;
-    color:rgb(233, 178, 76);
+    color: rgb(82, 12, 24);
     text-align: center;
     padding:1.25rem;
     font-size: 1.5rem;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
 
 .blues:hover {
-    color: rgb(52, 146, 175);
+    color: rgb(231, 230, 216);
+    background-color:rgb(156, 8, 8);
+    width: 15rem;
+    border-radius: 1rem
 
 }
 
 .lite {
     display:flex;
-    color:rgb(211, 183, 231);
+    color: rgb(82, 12, 24);
     text-align: center;
     padding:1.25rem;
     font-size: 1.5rem;
     text-decoration: none;
+    font-weight: 400;
+
 }
 
 .lite:hover {
-    color: lightgreen;
+    color: rgb(231, 230, 216);
+    background-color:rgb(156, 8, 8);
+    width: 5rem;
+    border-radius: 1rem;
+    
+    
 }
 
 /* --------------project images----------------------------- */
@@ -231,20 +302,24 @@ body {
     display: flex;
     flex-wrap: wrap; 
     width: 35%;
-    border-radius: 20px;
-    background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2));
+    border-radius: 3rem;
+    /* background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2)); */
     filter: contrast(160%) opacity(60%) blur(10px);
     position: relative;
-    left: 0;
-    transition: left ease 0.5s
+    /* left: 0; */
+    /* transition: ease 0.5s; */
+    
+    
+    
 }
 
 .disc:hover {
     filter: opacity(100%) blur(0px);
-    border-radius: 25px;
-    left: 10px;
-    transform:scale(1.2);
+    border-radius: 3rem;
+    left: 0px;
+    transform:scale(1.3);
     transition: ease 0.5s;
+    padding: 1rem;
 }
 
 .bicycle {
@@ -254,19 +329,21 @@ body {
     margin-left: 50px;
     margin-right: -30px;
     border-radius: 75px;
-    background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2));
+    /* background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2)); */
     filter: contrast(160%) opacity(60%) blur(10px);
     position: relative;
     right: 0;
-    transition: right ease 0.5s
+    
 }
     
 .bicycle:hover{
     filter: opacity(100%) blur(0px);
     border-radius:25px;
-    right: 10px;
-    transform:scale(1.2);
+    right: 0px;
+    transform:scale(1.3);
     transition: ease 0.5s;
+    padding: 1rem;
+    
 }
     
 
@@ -276,40 +353,42 @@ body {
     width: 35%;
     margin-left: 6%;
     border-radius: 25px;
-    background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2));
+    /* background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2)); */
     filter: contrast(160%) opacity(60%) blur(10px);
     padding: 3%;
     position: relative;
     left: 0;
-    transition: left ease 0.5s
+    
 }
 
 .paddle:hover {
     filter: opacity(100%) blur(0px);
     border-radius:25px;
-    left: 10px;
-    transform:scale(1.2);
+    left: 0px;
+    transform:scale(1.3);
     transition: ease 0.5s;
+    
 }
 
 
 .miller {
     width: 40%;
     border-radius: 25px;
-    background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2));
+    /* background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2)); */
     filter: contrast(160%) opacity(60%) blur(10px);
     padding: 3%;
     position: relative;
-    right: 0;
-    transition: right ease 0.5s;
+    right: 0px;
+    
 }
 
 .miller:hover {
     filter: opacity(100%) blur(0px);
     border-radius:25px;
-    right: 10px;
-    transform:scale(1.2);
+    right: 0px;
+    transform:scale(1.3);
     transition: ease 0.5s;
+    
 }
 
 .LI-profile-badge {
