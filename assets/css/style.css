@@ -164,7 +164,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 
 .golf {
@@ -371,20 +371,46 @@ footer {
     margin-top: 10%;
 }
 
-/* -------------keep this---------------------------------------- */
+/* -------------projects---------------------------------------- */
 @media (max-width: 700px) {
     .project {   
       flex-direction: column;
     }
   }
-/* --------------------------------------------------------------- */
+
+@media (max-width: 800px) {
+    .project {
+        flex-direction: column;
+    }
+}
 
 @media screen and (min-width: 200px) {
-    .me {
+    .project {
       width: 15rem;
     }
   }
 
+  @media screen and (min-width: 350px) {
+    .project {
+      width: 20rem;
+    }
+  }
+
+ 
+@media screen and (min-width: 600px) {
+    .project {
+        width: 60rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .project {
+        width: 75rem;
+    }
+}
+
+
+/* -------------------------bio------------------------------ */
 @media screen and (min-width: 350px) {
     .me {
       width: 20rem;
@@ -404,36 +430,3 @@ footer {
     }
 }
 
-/* @media only screen and (max-width: 768px) {
-    /* For mobile phones: 
-    [class*="col-"] {
-      width: 100%;
-    }
-  } */
-
-
-
-
-/* @media only screen and (min-width: 600px) {
-    .intro {
-        flex-wrap: wrap;
-    } 
-}
-
-@media only screen and (min-width: 700px) {
-    .me  {
-        flex-wrap: wrap;
-    }
-}
-
-@media only screen and (min-width: 700px) {
-    .project {
-        flex-wrap: wrap;
-    } 
-}
-
-@media only screen and (min-width: 700px) {
-    .end {
-        flex-wrap: wrap;
-    }
-} */ 
