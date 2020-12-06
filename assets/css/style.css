@@ -351,7 +351,6 @@ body {
     filter: contrast(160%) opacity(60%) blur(4px);
     position: relative;
     right: 0;
-    
 }
     
 .bicycle:hover{
@@ -361,10 +360,8 @@ body {
     transform:scale(1.8);
     transition: ease 0.8s;
     padding: 1rem;
-    
 }
     
-
 .paddle {
     display: flex;
     flex-wrap: wrap; 
@@ -375,7 +372,6 @@ body {
     padding: 3%;
     position: relative;
     left: 0;
-    
 }
 
 .paddle:hover {
@@ -384,10 +380,7 @@ body {
     left: 0px;
     transform:scale(1.8);
     transition: ease 0.8s;
-    
-    
 }
-
 
 .miller {
     display: flex;
@@ -459,13 +452,22 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-left: 28%;
+    margin-left: 40%;
     margin-bottom: 20%
 }
 
 .end {
     margin-top: 10%;
+    margin-left: 18%;
 }
+
+#github {
+    margin-left: 40%;
+    
+    border-radius: 25px;
+
+}
+
 
 /* -------------projects---------------------------------------- */
 @media (max-width: 700px) {
