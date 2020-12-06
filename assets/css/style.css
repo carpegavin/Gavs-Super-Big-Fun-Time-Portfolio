@@ -73,6 +73,7 @@ body {
     position: relative;
     left: 0;
     transition: ease 1.0s;
+    
 }
 
 .img:hover {
@@ -81,11 +82,14 @@ body {
     transform: scale(1.2);
     transition: ease 0.8s;
     
+    
 }
 
 .imgContainer {
     width: 50%;
     margin-top: 3%;
+    
+    
 }
 
 
@@ -346,7 +350,7 @@ body {
     width: 40%;
     margin-left: 50px;
     margin-right: -30px;
-    border-radius: 75px;
+    border-radius: 3rem;
     filter: contrast(160%) opacity(60%) blur(4px);
     position: relative;
     right: 0;
@@ -355,7 +359,7 @@ body {
     
 .bicycle:hover{
     filter: opacity(100%) blur(0px);
-    border-radius:25px;
+    border-radius:3rem;
     right: 0px;
     transform:scale(1.3);
     transition: ease 0.8s;
@@ -367,7 +371,7 @@ body {
     flex-wrap: wrap; 
     width: 35%;
     margin-left: 6%;
-    border-radius: 25px;
+    border-radius: 3rem;
     filter: contrast(160%) opacity(60%) blur(4px);
     padding: 3%;
     position: relative;
@@ -377,7 +381,7 @@ body {
 
 .paddle:hover {
     filter: opacity(100%) blur(0px);
-    border-radius:25px;
+    border-radius:3rem;
     right: 0px;
     transform:scale(1.3);
     transition: ease 0.8s;
@@ -388,7 +392,7 @@ body {
     display: flex;
     flex-wrap: wrap; 
     width: 40%;
-    border-radius: 25px;
+    border-radius: 3rem;
     filter: contrast(160%) opacity(60%) blur(4px);
     padding: 3%;
     position: relative;
@@ -398,7 +402,7 @@ body {
 
 .miller:hover {
     filter: opacity(100%) blur(0px);
-    border-radius:25px;
+    border-radius:3rem;
     right: 0px;
     transform:scale(1.3);
     transition: ease 0.8s;
@@ -470,6 +474,7 @@ footer {
     margin-left: .5rem;
     border-radius: 50px;
     border: solid white 1px;
+    
 }
 
 #twitter {
@@ -477,11 +482,12 @@ footer {
     margin-bottom:.5rem;
     border: solid white 1px;
     border-radius: 50px;
+
 }
 
 #linkedin {
     margin-left: 3.75rem;
-    border-radius:15px;
+    border-radius:10px;
     border: solid white 1px;
 }
 
@@ -506,8 +512,82 @@ footer {
 
 
 }
+
+/* *** MEDIA QUERIES *** */
+@media only screen and (max-width: 1388px) {
+    .intro {
+        font-size: 5rem;
+        margin-left: -1%;
+        margin-top: -11%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .intro {
+        font-size: 4rem;
+        margin-left: -1%;
+        margin-top: -11%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+
+    .intro {
+        margin-left: -1%;
+        margin-right: 32%;
+        margin-top: -10%;
+        font-size: 3.5rem;
+    }
+    
+
+}
+
+@media only screen and (max-width: 500px) {
+    .intro {
+        margin-left: -1%;
+        margin-right: 30%;
+        margin-top: -13%;
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 340px) {
+    .intro {
+        margin-left: -1%;
+        margin-right: 30%;
+        margin-top: -13%;
+        font-size: 2rem;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------projects---------------------------------------- */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
     .project {   
       flex-direction: column;
     }
@@ -542,11 +622,11 @@ footer {
     .project {
         width: 75rem;
     }
-}
+} */
 
 
 /* -------------------------bio------------------------------ */
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
     .me {
       width: 20rem !important;
     }
@@ -563,7 +643,7 @@ footer {
     .me {
         width: 45rem !important;
     }
-}
+} */
 
 /* @media only screen
 
