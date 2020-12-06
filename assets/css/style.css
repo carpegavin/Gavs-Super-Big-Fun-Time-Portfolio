@@ -596,34 +596,19 @@ footer {
     }
 
     .img {
-        max-width: 22rem;
-        max-height: 22rem;
-        margin-right: 75rem;
-        margin-left: 2rem;
+        max-width: 20rem;
+        max-height: auto;
+        margin-right: 20%;
+        margin-left: 20%;
         margin-top: 50%;
+    }
+
+    .me {
+        margin-left:10%;
+        transform: scale(.5);
     }
     
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* -------------projects---------------------------------------- */
 /* @media (max-width: 700px) {
