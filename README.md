@@ -24,5 +24,5 @@
     4. Struggled with media queries
     
 
-![portfolio](https://github.com/carpegavin/Gavs-Super-Big-Fun-Time-Portfolio/blob/master/assets/img/scrnshot.png?raw=true)
+![portfolio](https://drive.google.com/file/d/1hBOyQr5G4uivRl64AfYJqW0eEZDjlfrr/preview" width="640" height="480)
 
