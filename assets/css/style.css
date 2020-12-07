@@ -512,15 +512,14 @@ footer {
     }
 
     .img {
-        max-width: 22rem;
-        max-height: 22rem;
+        max-width: 30rem;
+        max-height: 30rem;
         margin-right: 75rem;
         margin-left: 10rem;
         margin-top: 40%;
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 768.1px) and (max-width: 992px) {
     .intro {
         font-size: 4rem;
@@ -529,17 +528,15 @@ footer {
     }
 
     .img {
-        max-width: 22rem;
-        max-height: 22rem;
+        max-width: 28rem;
+        max-height: auto;
         margin-right: 75rem;
         margin-left: 10rem;
         margin-top: 40%;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width: 500.1px) and (max-width: 768px) {
-
+@media only screen and (min-width: 500.1px) and (max-width: 768px) {
     .intro {
         margin-left: 4rem;
         margin-right: 32%;
@@ -548,8 +545,8 @@ footer {
     }
 
     .img {
-        max-width: 22rem;
-        max-height: 22rem;
+        max-width: 28rem;
+        max-height: auto;
         margin-right: 75rem;
         margin-left: 10rem;
         margin-top: 40%;
@@ -557,7 +554,6 @@ footer {
 }
 
 @media only screen and (min-width: 340.1px) and (max-width:500px) {
-    
     .intro {
         margin-left: 4rem;
         margin-right: 30%;
@@ -566,11 +562,20 @@ footer {
     }
 
     .img {
-        max-width: 22rem;
-        max-height: 22rem;
+        max-width: 27rem;
+        max-height: auto;
         margin-right: 75rem;
         margin-left: 10rem;
         margin-top: 40%;
+    }
+
+    .project {
+        transform: scale(.8);
+    }
+
+    .me {
+        margin-left:10%;
+        transform: scale(.8);
     }
 }
 
@@ -592,12 +597,18 @@ footer {
 
     .me {
         margin-left:10%;
-        transform: scale(.5);
+        transform: scale(.8);
     }
-    
+
+    .project {   
+        flex-direction: column;
+        align-items: left flex;
+
+      }
 } 
 
-/* ------------------MEDIA QUERY ATTEMPTS------------------------------ */
+
+/* ------PREVIOUS MEDIA QUERY ATTEMPTS------------------------------ */
 /* @media (max-width: 700px) {
     .project {   
       flex-direction: column;
@@ -662,8 +673,6 @@ footer {
 
   and (max-device-width: 736px)
 
-  and (-webkit-min-device-pixel-ratio: 3) {
+  and (-webkit-min-device-pixel-ratio: 3) { */
 
- CSS Rules Here 
-
-} 
+ 
