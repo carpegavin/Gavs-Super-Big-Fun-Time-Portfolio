@@ -1,4 +1,4 @@
-# Gavin H Phill's Web Developer Portfolio    
+# Developer Portfolio    
 
 ## https://carpegavin.github.io/Gavs-Super-Big-Fun-Time-Portfolio/.
 
@@ -6,11 +6,11 @@
 
 ## The requirments to develop my portfolio were as follows:
   * The front page must have the following visible
-    1. name
-    2. recent photo
-    3. links to bio, projects, and contact info
+    1. Full name
+    2. Recent photo
+    3. Links to bio, projects, resume, and contact info
     
-  * The links must be clickabel and navigate to the corresponding section of the site
+  * The links must be clickable and navigate to the corresponding section of the site
   * The projects must be navigable to and titled
   * The project's images should grow in size to be larger than the others when focused upon.
   * When a project is clicked, the user is taken to the deployed app
@@ -21,8 +21,8 @@
     1. Researched dozens of portfolio examples online.
     2. Pseudo-coded a website layout on my whiteboard.
     3. Coded
+    4. Struggled with media queries
     
-## To note:
-  * My goal was to create a site that was clean, simple. More importantly though, different than the standard. `I purposely avoided the more conventional layout scheme and instead focused on clear and consise and ENGAGING. I wanted the user to feel like they left their zone, I guess. Like they were in my house, my room, my personality. I wanted the site to say as much about me as a coder than the projects or bio. Sometimes the wrapping paper can be as exciting as the present inside.  
 
+![portfolio](https://github.com/carpegavin/Gavs-Super-Big-Fun-Time-Portfolio/blob/master/assets/img/scrnshot.png?raw=true)
 
