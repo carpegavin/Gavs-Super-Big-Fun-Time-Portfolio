@@ -26,3 +26,5 @@
 
 ![portfolio](https://github.com/carpegavin/Gavs-Super-Big-Fun-Time-Portfolio/blob/master/assets/img/portfolioGIF.gif?raw=true)
 
+![responsive](https://github.com/carpegavin/Gavs-Super-Big-Fun-Time-Portfolio/blob/master/assets/img/portfolioGIFResponsive.gif?raw=true)
+
