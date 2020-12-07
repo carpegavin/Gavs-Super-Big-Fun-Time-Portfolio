@@ -1,4 +1,4 @@
-
+/* -------------background animation-------------------------------- */
 html {
 	height: 100%;
 	/* max-height: 600px; */
@@ -36,16 +36,6 @@ html {
 			400px 0;
 		}
 	}
-
-/* * {
-    margin: 0;
-    padding: 0;
-} */
-
-/* html {
-    background-color:black;
-    animation: 5s infinite;
-} */
 
 /* ----------------------body----------------------------------- */
 body {
@@ -208,15 +198,16 @@ body {
     
 }
 
-/* .me:hover {
+.me:hover {
     filter: opacity(100%) blur(0px);
     background: rgb(0, 0, 0);
     right: -2.5rem;
-    color: rgb(248, 246, 246);
+    color: rgb(178, 252, 7);
     filter: opacity(84%);
-} */
+    font-weight: 450;
+}
 
-/* --------------------project titles-------------------------- */
+/* ----------------project titles-------------------------- */
 .project {
     display: flex;
     flex-wrap: wrap;
@@ -510,11 +501,9 @@ footer {
     border-width: 3px;
     transform:scale(1.4);
     transition: ease 0.3s;
-
-
 }
 
-/* *** MEDIA QUERIES *** */
+/* ----------------- MEDIA QUERIES-------------------------- */
 @media only screen and (min-width: 992.1px) and (max-width: 1300px) {
     .intro {
         font-size: 4rem;
@@ -565,8 +554,6 @@ footer {
         margin-left: 10rem;
         margin-top: 40%;
     }
-    
-
 }
 
 @media only screen and (min-width: 340.1px) and (max-width:500px) {
@@ -610,7 +597,7 @@ footer {
     
 } 
 
-/* -------------projects---------------------------------------- */
+/* ------------------MEDIA QUERY ATTEMPTS------------------------------ */
 /* @media (max-width: 700px) {
     .project {   
       flex-direction: column;
