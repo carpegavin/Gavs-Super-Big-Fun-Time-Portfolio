@@ -24,5 +24,5 @@
     4. Struggled with media queries
     
 
-![portfolio](<iframe src="https://drive.google.com/file/d/1hBOyQr5G4uivRl64AfYJqW0eEZDjlfrr/preview" width="640" height="480"></iframe>)
+![portfolio](https://drive.google.com/file/d/1hBOyQr5G4uivRl64AfYJqW0eEZDjlfrr/preview" width="640" height="480)
 
