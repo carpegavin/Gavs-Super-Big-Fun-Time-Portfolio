@@ -39,31 +39,23 @@ html {
 
 /* ----------------------body----------------------------------- */
 body {
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* min-height: 100; */
     line-height: 1;
-    /* flex-direction: column; */
     flex-wrap: wrap;
 }
  
 /* ------------------------profile img-------------------------- */
 .img {
-    /* display: flex;
-    flex-wrap: wrap;  */
     justify-content: flex-end;
     margin-top: 5%;
     margin-left: 25rem;
     max-width: 100%;
     max-height: 100%;
-    /* height:  */
     background: linear-gradient(to bottom, rgba(2, 2, 2, 3), rgba(2, 2, 2, 2));
     filter: contrast(160%) opacity(60%) blur(10px);
     border-radius: 4rem;
     position: relative;
     left: 0;
     transition: ease 1.0s;
-    
 }
 
 .img:hover {
@@ -71,22 +63,16 @@ body {
     left:-3rem;
     transform: scale(1.2);
     transition: ease 0.8s;
-    
-    
 }
 
 .imgContainer {
     width: 50%;
     margin-top: 3%;
-    
-    
 }
-
 
 .linksContainer {
     width: 50%;
 }  
-
 /* --------------------intro--------------------------------------    */
 .intro {
     display: flex;
@@ -182,7 +168,6 @@ body {
     flex-wrap: wrap;
     font-size: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* flex-direction: center; */
     box-sizing: border-box;
     width: 44rem;
     padding: 1.25rem;
@@ -195,7 +180,6 @@ body {
     position: relative;
     right: 0;
     transition: right ease 0.5s;
-    
 }
 
 .me:hover {
@@ -207,15 +191,13 @@ body {
     font-weight: 450;
 }
 
-/* ----------------project titles-------------------------- */
+/* -------project titles * NOT USED YET ****-------------------------- */
 .project {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 15%;
-    
-    
 }
 
 .golf {
@@ -228,7 +210,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     text-align:center;
-    
 }
 
 .golf:hover {
@@ -239,7 +220,6 @@ body {
     padding-bottom: 22px;
     border: 1px solid black;
     filter: opacity(90%);
-    
 }
 
 .bonanza {
@@ -257,13 +237,11 @@ body {
 
 .bonanza:hover {
     color: rgb(231, 230, 216);
-    
     width: 23rem;
     border-radius: 10px;
     padding-bottom: 22px;
     border: 1px solid black;
     filter: opacity(90%);
-    
 }
 
 .blues {
@@ -280,13 +258,11 @@ body {
 
 .blues:hover {
     color: rgb(231, 230, 216);
-    /* background-color: black; */
     width: 23rem;
     border-radius: 10px;
     padding-left: 1rem;
     border: 1px solid black;
     filter: opacity(90%);
-
 }
 
 .lite {
@@ -306,8 +282,6 @@ body {
     border-radius: 10px;
     border: 1px solid black;
     filter: opacity(90%);
-    
-    
 }
 
 /* --------------project images----------------------------- */
@@ -320,9 +294,6 @@ body {
     position: relative;
     transition: ease 0.5s;
     margin-right: 2.25rem;
-    
-    
-    
 }
 
 .disc:hover {
@@ -332,7 +303,6 @@ body {
     transform:scale(1.3);
     transition: ease 0.8s;
     padding: 1rem;
-
 }
 
 .bicycle {
@@ -376,7 +346,6 @@ body {
     right: 0px;
     transform:scale(1.3);
     transition: ease 0.8s;
-    
 }
 
 .miller {
@@ -466,7 +435,6 @@ footer {
     margin-left: .5rem;
     border-radius: 50px;
     border: solid white 1px;
-    
 }
 
 #twitter {
@@ -474,7 +442,6 @@ footer {
     margin-bottom:.5rem;
     border: solid white 1px;
     border-radius: 50px;
-
 }
 
 #linkedin {
@@ -488,7 +455,6 @@ footer {
     border: solid white 1px;
     border-radius: 10px;
     padding: -10px;
-    
 }
 
 #mail {
@@ -502,6 +468,11 @@ footer {
     transform:scale(1.4);
     transition: ease 0.3s;
 }
+
+/* ---------hide phone# from BOTS------------------ */
+span.boo { unicode-bidi:bidi-override; direction:rtl }
+span.boo.bear:before { content:"9600-" }
+span.boo.bear:after { content:"-215 :enohP" }
 
 /* ----------------- MEDIA QUERIES-------------------------- */
 @media only screen and (min-width: 992.1px) and (max-width: 1300px) {
@@ -603,8 +574,7 @@ footer {
     .project {   
         flex-direction: column;
         align-items: left flex;
-
-      }
+    }
 } 
 
 
