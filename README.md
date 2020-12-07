@@ -28,3 +28,4 @@
 
 ![responsive](https://github.com/carpegavin/Gavs-Super-Big-Fun-Time-Portfolio/blob/master/assets/img/portfolioGIFResponsive.gif?raw=true)
 
+© copyright 2020 Gavin H Phill
