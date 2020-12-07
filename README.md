@@ -6,9 +6,9 @@
 
 ## The requirments to develop my portfolio were as follows:
   * The front page must have the following visible
-    1. name
-    2. recent photo
-    3. links to bio, projects, and contact info
+    1. Full name
+    2. Recent photo
+    3. Links to bio, projects, resume, and contact info
     
   * The links must be clickable and navigate to the corresponding section of the site
   * The projects must be navigable to and titled
@@ -20,7 +20,8 @@
   * Using HTML and CSS and a very small amount of JavaScript I did the following:
     1. Researched dozens of portfolio examples online.
     2. Pseudo-coded a website layout on my whiteboard.
-    3. Coded with A LOT of CSS
+    3. Coded
+    4. Struggled with media queries
     
 
 ![portfolio](https://github.com/carpegavin/Gavs-Super-Big-Fun-Time-Portfolio/blob/master/assets/img/scrnshot.png?raw=true)
