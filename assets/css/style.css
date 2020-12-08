@@ -475,7 +475,7 @@ span.boo.bear:before { content:"9600-" }
 span.boo.bear:after { content:"-215 :enohP" }
 
 /* ----------------- MEDIA QUERIES-------------------------- */
-@media only screen and (min-width: 992.1px) and (max-width: 1300px) {
+@media only screen and (min-width: 992.1px) and (max-width: 1100px) {
     .intro {
         font-size: 4rem;
         margin-left: 5%;
