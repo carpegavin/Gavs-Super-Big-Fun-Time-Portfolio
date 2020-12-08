@@ -284,7 +284,7 @@ body {
     filter: opacity(90%);
 }
 
-/* --------------project images----------------------------- */
+/* ---------------------------project images----------------------------- */
 .disc{
     display: flex;
     flex-wrap: wrap; 
@@ -375,7 +375,7 @@ body {
     margin-right: 20px;
 }
 
-/* ----------------------footer--------------------- */
+/* -------------------------------footer--------------------- */
 .carpe:hover {
     background: rgb(8, 8, 8);
     right: -3rem;
@@ -430,7 +430,7 @@ footer {
     margin-left: 18%;
     font-weight: 500;
 }
-
+/* ------------------------buttons-------------------------------- */
 #github {
     margin-left: .5rem;
     border-radius: 50px;
@@ -469,7 +469,7 @@ footer {
     transition: ease 0.3s;
 }
 
-/* ---------hide phone# from BOTS------------------ */
+/* ---------hide phone# from BOTS!------------------ */
 span.boo { unicode-bidi:bidi-override; direction:rtl }
 span.boo.bear:before { content:"9600-" }
 span.boo.bear:after { content:"-215 :enohP" }
