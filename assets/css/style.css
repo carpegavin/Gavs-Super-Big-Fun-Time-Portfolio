@@ -422,7 +422,8 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 41%;
-    margin-bottom: 20%
+    margin-bottom: 10rem;
+    padding: 2rem;
 }
 
 .end {
@@ -467,6 +468,7 @@ footer {
     border-width: 3px;
     transform:scale(1.4);
     transition: ease 0.3s;
+    
 }
 
 /* ---------hide phone# from BOTS!------------------ */
